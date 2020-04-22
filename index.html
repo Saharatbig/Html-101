@@ -3,12 +3,39 @@
         <title>Html-101</title>
         <meta name="description" content="content"></meta>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
+        <style>
+            body {
+                background-color: black;
+            }
+            
+            header {
+                height: 4rem;
+                border-bottom: 1px solid gray;
+            }
+        </style>
     </head>
     <body>
-        <header class="d-flex justify-content-between">
-            <div class="logo" style="color:red;">Logo</div>
-            <div class="search-box">search</div>
-            <div class="menu">menu</div>
+        <header class="d-flex justify-content-between align-items-center">
+            <div class="logo-part" style="color:red;">
+            <img src="images/odds-read-logo.png" width="100rem">
+            </div>
+            <div class="menu-part d-flex">
+                <div class="search-input">
+                    <input type="search" />
+                </div>
+                <div class="logo1">
+                 <img src="images/cloud.png" width="50rem">
+                </div>
+                <div class="logo2">
+                 <img src="images/book.png" width="50rem">
+                </div>
+                <div class="logo3">
+                 <img src="images/noti.png" width="50rem">
+                </div>
+                <div class="logo4">
+                 <img src="images/profile.png" width="50rem">
+                </div>
+            </div>
         </header>
         <content></content>
         <footer></footer>
