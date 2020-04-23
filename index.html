@@ -6,6 +6,7 @@
         <style>
             body {
                 background-color: black;
+                color: white;
             }
             
             header {
@@ -37,7 +38,77 @@
                 </div>
             </div>
         </header>
-        <content></content>
+        <content>
+            <!-- Start Banner --> 
+            <div class="banner d-flex">
+                <div class="intro">
+                    <img src="images/odd-read-wording.png" width="350rem">
+                    <p>
+                        "Books are the quietest and most constant of friends; 
+                         they are the most accessible and wisest of counsellors, 
+                         and the most patient of teachers" by Charles William Eliot
+                    </p>
+                    <select id="genre">
+                    <option selected disabled value="Genres">Genres</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Learn">Learn</option>
+                    </select>
+                </div>
+                <div class="banner-icon">
+                    <img src="images/wormbook.png" width="700rem">
+                </div>
+            </div>
+            <!-- End banner --> 
+            <!-- Start Content --> 
+            <div class="content d-flex flex-column align-items-center">
+                <!-- Start recommended --> 
+                <div class="recommended d-flex col-10 mb-4">
+                    <div class="book-cover">
+                        <img src="images/recommend-book-image.png" width="300rem">
+                    </div>
+                    <div class="detail ml-4">
+                        <h1>Animal Farm</h1>
+                        <div class="about-book d-flex">
+                            <div class="aurthor">
+                                <p>Aurthor's name</p>
+                            </div>
+                             <div class="type ml-4">
+                                <p>Type Type</p>
+                            </div>
+                        </div>
+                        <p>
+                            หนังสือถูกแต่งโดย จอร์จ ออเวล (George Orwell,1905-1950) ที่สะท้อนคิดวัฒนธรรมการเมือง ในประเทศรัสเซีย ผ่านสถานการณ์บรรดาสัตว์ต่าง ๆ ที่ปรากฏใน Animal Farm ที่ต่อสู้ปฏิวัติกับคนที่เป็นเจ้าของฟาร์ม พร้อมนำไปสู่การปฏิวัติและพัฒนา แต่ทุกอย่างเกิดขึ้นภายใต้ "...การคอรัปชั่น เบี่ยงประเด็น พวกพ้อง ชนชั้น ผู้ปกครอง ผู้ถูกปกครอง ข่มขวัญ เสแสร้ง สร้างภาพ กดขี่ หลอกลวง ข่มขู่ หลอกใช้ เอารัดเอาเปรียบ ปั่นกระแส ปั้นเรื่อง แปลงสาร สาดโคลน ใส่ความ อุ้มฆ่า และตัดตอน ลับลวงพราง..." ซึ่งทั้งหมดเป็นเรื่องเล่าผ่านบรรดาสัตว์นานาชนิดใน Animal Farm
+                        </p>
+                        <div class="buttons">
+                            <a href="#" class="btn btn-primary">X</a>
+                            <a href="#" class="btn btn-primary">X</a>
+                            <a href="#" class="btn btn-primary">X</a>
+                            <a href="#" class="btn btn-primary">X</a>
+                            <a href="#" class="btn btn-primary">X</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end recommended --> 
+                <!-- Start fiction --> 
+                <div class="fiction d-flex flex-column col-10">
+                    <h1>Fiction</h1>
+                    <div class="fiction-books-cover d-flex">
+                        <img src="images/book-1.png" width="250rem" />
+                        <img src="images/book-2.png" width="250rem" />
+                        <img src="images/book-3.png" width="250rem" />
+                        <img src="images/book-4.png" width="250rem" />
+                        <img src="images/book-5.png" width="250rem" />
+                    </div>
+                </div>
+                <!-- end fiction --> 
+                <!-- Start none-fiction --> 
+                <div class="none-fiction">
+                </div>
+                <!-- end none-fiction --> 
+            </div>
+            <!-- End Content --> 
+        </content>
         <footer></footer>
     </body>
 </html>
