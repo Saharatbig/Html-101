@@ -13,6 +13,56 @@
                 height: 4rem;
                 border-bottom: 1px solid gray;
             }
+
+            .content  .recommended .detail {
+                font-family: Helvetica, sans-serif;
+                font-weight: 700;
+                padding: 10;
+                box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+                border-radius: 2%;
+            }
+
+             .content  .recommended .detail .about-book .type {
+                font-family: Helvetica, sans-serif;
+                font-weight: 700;
+                color: #9999;
+                font-weight:400;
+            }
+
+             .content  .recommended .detail .about-book .aurthor {
+                font-family: Helvetica, sans-serif;
+                font-weight: 700;
+                color: #9999;
+                 font-weight:400;
+            }
+
+            .content  .recommended .detail .about-book {
+                border-bottom: 0.5px solid #8CD77E;
+                margin-bottom: 15px;
+                line-height: 1;
+            }
+
+            .content  .recommended .detail .type .active {
+               width:12px;
+               height:12px;
+               background-color:#8CD77E;
+               display: inline-block;
+               border-radius: 50%;
+            }
+
+            .btn-custom-green {
+                background-color: #8CD77E;
+                border: none;
+                font-weight: 500;
+            }
+            .btn-custom-green:hover {
+                background-color: rgb(120, 174, 135);
+            }
+
+            .btn-custom-circle {
+                border-radius: 50%;
+            }
+
         </style>
     </head>
     <body>
@@ -74,18 +124,24 @@
                                 <p>Aurthor's name</p>
                             </div>
                              <div class="type ml-4">
-                                <p>Type Type</p>
+                                <p><span class="active mr-2"></span>#Type1 #Type2</p>
                             </div>
                         </div>
+                        <div class="descriptions">
                         <p>
-                            หนังสือถูกแต่งโดย จอร์จ ออเวล (George Orwell,1905-1950) ที่สะท้อนคิดวัฒนธรรมการเมือง ในประเทศรัสเซีย ผ่านสถานการณ์บรรดาสัตว์ต่าง ๆ ที่ปรากฏใน Animal Farm ที่ต่อสู้ปฏิวัติกับคนที่เป็นเจ้าของฟาร์ม พร้อมนำไปสู่การปฏิวัติและพัฒนา แต่ทุกอย่างเกิดขึ้นภายใต้ "...การคอรัปชั่น เบี่ยงประเด็น พวกพ้อง ชนชั้น ผู้ปกครอง ผู้ถูกปกครอง ข่มขวัญ เสแสร้ง สร้างภาพ กดขี่ หลอกลวง ข่มขู่ หลอกใช้ เอารัดเอาเปรียบ ปั่นกระแส ปั้นเรื่อง แปลงสาร สาดโคลน ใส่ความ อุ้มฆ่า และตัดตอน ลับลวงพราง..." ซึ่งทั้งหมดเป็นเรื่องเล่าผ่านบรรดาสัตว์นานาชนิดใน Animal Farm
+                            หนังสือถูกแต่งโดย จอร์จ ออเวล (George Orwell,1905-1950) ที่สะท้อนคิดวัฒนธรรมการเมือง 
+                            ในประเทศรัสเซีย ผ่านสถานการณ์บรรดาสัตว์ต่าง ๆ ที่ปรากฏใน Animal Farm ที่ต่อสู้ปฏิวัติกับคนที่เป็นเจ้าของฟาร์ม 
+                            พร้อมนำไปสู่การปฏิวัติและพัฒนา แต่ทุกอย่างเกิดขึ้นภายใต้ "...การคอรัปชั่น เบี่ยงประเด็น พวกพ้อง ชนชั้น 
+                            ผู้ปกครอง ผู้ถูกปกครอง ข่มขวัญ เสแสร้ง สร้างภาพ กดขี่ หลอกลวง ข่มขู่ หลอกใช้ เอารัดเอาเปรียบ ปั่นกระแส ปั้นเรื่อง
+                             แปลงสาร สาดโคลน ใส่ความ อุ้มฆ่า และตัดตอน ลับลวงพราง..." ซึ่งทั้งหมดเป็นเรื่องเล่าผ่านบรรดาสัตว์นานาชนิดใน Animal Farm
                         </p>
                         <div class="buttons">
-                            <a href="#" class="btn btn-primary">X</a>
-                            <a href="#" class="btn btn-primary">X</a>
-                            <a href="#" class="btn btn-primary">X</a>
-                            <a href="#" class="btn btn-primary">X</a>
-                            <a href="#" class="btn btn-primary">X</a>
+                            <a href="#" class="btn btn-primary btn-custom-green">BORROW</a>
+                            <a href="#" class="btn btn-primary btn-custom-green mr-3">+ LIST</a>
+                            <a href="#" class="btn btn-primary btn-custom-green btn-custom-circle">X</a>
+                            <a href="#" class="btn btn-primary btn-custom-green btn-custom-circle">X</a>
+                            <a href="#" class="btn btn-primary btn-custom-green btn-custom-circle">X</a>
+                        </div>
                         </div>
                     </div>
                 </div>
